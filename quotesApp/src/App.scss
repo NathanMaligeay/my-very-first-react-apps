@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,500');
+
+button {
+    margin: 0;
+    padding: 0;
+    cursor: pointer;
+}
+
+html,
+body, #root {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    min-width: 290px;
+}
+
+#root {
+    transition: background-color 2s;
+}
+
+p,
+h1 {
+    margin-block-start: 0;
+}
+
+h1 {
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    padding-top: 4%;
+    min-width: 290px;
+}
+
+#quote-box {
+    background-color: white;
+    width: 400px;
+    border-radius: 15px;
+    padding: 20px;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+#text {
+    font-family: 'Raleway', sans-serif;
+    font-size: 26px;
+    quotes: "“""";
+    transition: color 2s;
+}
+
+#author {
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    font-style: italic;
+    padding-top: 10px;
+    text-align: end;
+    color: black;
+}
+
+#twitter-logo {
+    color: white; //rgb(29 161 242);
+    font-size: 32px;
+}
+
+#tumblr-logo {
+    color: white; //#34526f;
+    font-size: 32px;
+    padding: 0 6px;
+}
+
+#newquote {
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    padding: 13px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    float: right;
+    transition: background-color 2s;
+}
+
+@media (max-width: 760px) {
+    @media screen and (orientation:portrait) {
+        #quote-box {
+            width: 250px;
+        }
+
+        h1 {
+            font-size: 26px;
+        }
+
+        #text {
+            font-size: 22px
+        }
+
+        #author, #newquote {
+            font-size: 16px
+        }
+    }
+    @media screen and (orientation:landscape) {
+        #quote-box {
+            width: 450px;
+        }
+
+        h1 {
+            font-size: 26px;
+            padding-top: 1%;
+        }
+
+        #text {
+            font-size: 22px
+        }
+
+        #author {
+            font-size: 16px
+        }
+    }
+}
+
+.container {
+    padding: 7px;
+    border-radius: 10px;
+    transition: background-color 2s;
+}
+
+.flex {
+    display: inline-flex;
+    align-items: center;
+    gap: 20px;
+}

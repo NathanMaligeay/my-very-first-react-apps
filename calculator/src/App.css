@@ -1,0 +1,29 @@
+#calculator {
+  width: 400px;
+  height: 800px;
+}
+
+#screen {
+  width: inherit;
+  height: 200px;
+}
+
+#input,#results {
+  width: inherit;
+  height: 100px;
+}
+
+#buttons {
+  width: inherit;
+  height: 600px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#buttons div {
+  width: 100px;
+}
+
+#buttons div #AC {
+  width: 200px;
+}

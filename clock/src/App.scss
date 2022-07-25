@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400&display=swap');
+
+html {
+    height: 100%;
+    width: 100%;
+    background-color: #92a8d1;
+}
+
+.globCont {
+    width: 50%;
+    min-width: 375px;
+    margin: auto;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+}
+
+#increment-container {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+p {
+    font-family: 'Oswald', sans-serif;
+    font-size: 22px;
+    text-decoration: underline solid;
+}
+
+.time-display {
+    font-size: 28px;
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+}
+
+#timer {
+    text-align: center;
+
+    div {
+        font-size: 28px;
+        font-family: 'Oswald', sans-serif;
+    }
+}
+
+#buttons {
+    width: 50%;
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 30px;
+}
+
+.flexbox {
+    padding-top: 30px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+button {
+    border: 3px solid #293f69;
+    font-size: 16px;
+    font-family: 'Oswald', sans-serif;
+    padding: 10px;
+    background-color: white;
+    border-radius: 5px;
+}
+
+button:hover {
+    cursor: pointer;
+    border-color: black;
+    background-color: #293f69;
+    color: white;
+}
+
+#idk-how-to-style-child-component {
+    width: 99%;
+    padding-top: 30px;
+    text-align: center;
+    font-size: 28px;
+    font-family: 'Oswald', sans-serif;
+}
